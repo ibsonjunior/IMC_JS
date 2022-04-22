@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+}
+
+
+body{
+  background: rgba(206,223,42,1);
+  background: linear-gradient(90deg, rgba(120,224,133,1) 1%, rgba(255,171,60,1) 38%, rgba(148,233,189,1) 67%, rgba(206,223,42,1) 100%);
+}
+
+main{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(243, 241, 145);
+  width: 400px;
+  height: 600px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  box-shadow: 0 0 10px black;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  font: bold 2.5rem Roboto;
+  border-bottom: solid 5px black;
+  margin-bottom: 20px;
+}
+
+.input {
+  display: flex;
+  width: 300px;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.input input {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  border:none;
+  outline: 0;
+  font: bold 1.5rem serif;
+  text-align: center;
+}
+
+.input label {
+  font: bold 1.5rem roboto;
+}
+
+button{
+  width: 300px;
+  height: 40px;
+  font: bold 1.2rem roboto;
+  background: #000;
+  color: rgb(248, 247, 245);
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.result{
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  width: 300px;
+  height: 150px;
+  border-radius: 5px;
+  font: italic 1.5rem roboto;
+  box-shadow: 0px 0px 10px black;
+  background: #000;
+  color: rgb(248, 247, 245);
+  padding: 20px;
+  box-sizing: border-box;
+  user-select: none;
+}
