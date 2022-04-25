@@ -26,8 +26,7 @@ main{
 .container{
   display: flex;
   flex-direction: column;
-  background: rgb(183,215,215);
-  background: linear-gradient(0deg, rgba(183,215,215,1) 0%, rgba(153,214,122,1) 46%, rgba(242,195,112,1) 100%);
+  background-color: #ffc75e;
   width: 400px;
   height: 600px;
   align-items: center;
