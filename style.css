@@ -11,8 +11,8 @@
 
 
 body{
-  background: rgba(206,223,42,1);
-  background: linear-gradient(90deg, rgba(120,224,133,1) 1%, rgba(255,171,60,1) 38%, rgba(148,233,189,1) 67%, rgba(206,223,42,1) 100%);
+  background: #c3bbb3;
+
 }
 
 main{
@@ -26,7 +26,8 @@ main{
 .container{
   display: flex;
   flex-direction: column;
-  background-color: rgb(243, 241, 145);
+  background: rgb(183,215,215);
+  background: linear-gradient(0deg, rgba(183,215,215,1) 0%, rgba(153,214,122,1) 46%, rgba(242,195,112,1) 100%);
   width: 400px;
   height: 600px;
   align-items: center;
